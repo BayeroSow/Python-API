@@ -1,6 +1,6 @@
 # FastApi
-This is a fastapi that analyzes a content of a page, catalogs images and video files embedded on the page.
-
+This is a fully featured python fastapi that includes uthentication, crudoperations, scheme validation and documentation
+ 
 
 # Requirements
 - Crawl website
@@ -10,9 +10,9 @@ This is a fastapi that analyzes a content of a page, catalogs images and video f
 
 # Tech Stack
 - Visual Studio Code
-- Ajax
-- Xamp
-- Third party tools
+- Postman
+- Postgress
+- SQl
 
 
 # Schema
