@@ -34,7 +34,7 @@ def session():
         yield db
     finally:
         db.close();
-        # send it to me
+        
         
         
 
