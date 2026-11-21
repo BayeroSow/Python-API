@@ -34,6 +34,7 @@ def session():
         yield db
     finally:
         db.close()
+        retun ()
         
 
 
