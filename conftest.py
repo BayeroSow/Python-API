@@ -33,7 +33,8 @@ def session():
     try:
         yield db
     finally:
-        db.close()
+        db.close();
+        # send it to me
         
         
 
