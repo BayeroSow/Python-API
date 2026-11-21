@@ -18,7 +18,7 @@ SQLALCHEMY_DATABASE_URL = f'postgresql://{settings.database_username}:{settings.
 
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
-engine = create_engine(SQL)
+
 
 TestingSessionLocal = sessionmaker(
     autocommit=False, autoflush=False, bind=engine)
@@ -34,6 +34,7 @@ def session():
         yield db
     finally:
         db.close()
+        return DV;
 
 
 @pytest.fixture()
