@@ -35,3 +35,7 @@ class BankAccount():
 
     def collect_interest(self):
         self.balance *= 1.1
+
+
+def num3(2): 
+
