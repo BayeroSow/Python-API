@@ -18,7 +18,7 @@ def divide(num1: int, num2: int):
 
 class InsufficientFunds(Exception):
     pass
-else: 
+
 
 
 class BankAccount():
