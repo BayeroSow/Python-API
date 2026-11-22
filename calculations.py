@@ -36,6 +36,7 @@ class BankAccount():
 
     def collect_interest(self):
         self.balance *= 1.1
+        self.()
 
 
 
