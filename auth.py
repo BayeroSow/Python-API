@@ -23,7 +23,7 @@ def login(user_credentials: OAuth2PasswordRequestForm = Depends(), db: Session =
 
     # create a token
     # return token
-    # return eveything else 
+    
     
 
     access_token = oauth2.create_access_token(data={"user_id": user.id})
