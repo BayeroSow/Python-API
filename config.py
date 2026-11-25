@@ -20,7 +20,7 @@ settings = Settings()
 
 
 class Settings(BaseSettings):
-    database_hostname: str
+
     
     
     
