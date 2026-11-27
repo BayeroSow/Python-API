@@ -19,9 +19,8 @@ settings = Settings()
 
 
 
+settings = settings()
 
-
-class Settings(BaseSettings):
     
     
 
