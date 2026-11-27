@@ -19,8 +19,6 @@ settings = Settings()
 
 
 
-settings = settings()
-
     
     
 
